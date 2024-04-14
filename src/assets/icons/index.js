@@ -31,6 +31,7 @@ import icondash from './dashboard-icons.png'
 import bank from './bank.png'
 import ai from './ai.png'
 import tshirt from './t-shirt.png'
+import meethub from './meethub.png'
 
 
 export {
@@ -66,5 +67,6 @@ export {
     icondash,
     bank,
     ai,
-    tshirt
+    tshirt,
+    meethub
 }

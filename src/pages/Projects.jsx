@@ -17,7 +17,7 @@ const Projects = () => {
         </span>
       </h1>
 
-      <p className="text-white font-semibold mt-2 leading-relaxed">
+      <p className="text-black font-bold mt-2 leading-relaxed">
         J'ai entrepris de nombreux projets de développement web et
         d'applications web au fil des ans, mais voici ceux qui me tiennent le
         plus à cœur. Qu'il s'agisse de sites web complexes, d'applications web
@@ -53,7 +53,7 @@ const Projects = () => {
               <h4 className="text-2xl font-poppins font-semibold">
                 {project.name}
               </h4>
-              <p className="mt-2 text-slate-300 font-semibold">{project.description}</p>
+              <p className="mt-2 text-slate-700 font-semibold">{project.description}</p>
               <div className="mt-5 flex items-center gap-2 font-poppins">
                 <Link
                   to={project.link}
@@ -74,7 +74,7 @@ const Projects = () => {
         ))}
       </div>
 
-      <hr className="border-slate-200" />
+      <hr className="border-slate-700" />
 
       <CTA />
     </section>

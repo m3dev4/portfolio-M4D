@@ -10,7 +10,7 @@ const Information = ({ currentStage }) => {
         Hi, I'm<span className="font-semibold mx-2 text-white">Mouhamed</span>{" "}
         👋🏾
         <br />
-        <span className="text-primary">A Software Engineer form Senegal 🇸🇳</span>
+        <span className="text-primary">Full stack Developer form Senegal 🇸🇳</span>
         <br />
       </h1>
       </div>

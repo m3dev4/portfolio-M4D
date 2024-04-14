@@ -4,18 +4,18 @@ import  {socialLinks}  from "../constants"
 const Footer = () => {
   return (
     <footer className="footer font-poppins">
-        <hr  className="border-slate-200"/>
+        <hr  className="border-slate-700"/>
         <div className="footer-container">
-            <p className="text-white">
-           © 2023 <strong>Mouhamed Lo</strong>. All Rights Reserved.       
+            <p className="text-black">
+           © 2024 <strong>Mouhamed Lo</strong>. All Rights Reserved.       
             </p>
-            <div>
+            <div className="flex justify-center align-center ml-14">
                 {socialLinks.map((link) =>(
-                    <Link key={link.name} to={link.link} target='_blanc'>
+                    <Link key={link.name} to={link.link} target='_blanc' className="flex align-center ml-2">
                         <img 
                         src={link.iconUrl}
                         alt={link.name}
-                        className="w-6 h-6 object-contain"
+                        className="w-6 h-6 object-contain "
                         />
                     </Link>
                 ) )}

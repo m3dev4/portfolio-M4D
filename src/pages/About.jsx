@@ -22,7 +22,7 @@ const About = () => {
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p className="text-white font-semibold">
+        <p className="text-black font-semibold">
         Développeur passionné localisé au Sénégal. J'accorde une importance
      particulière à la pédagogie et à l'apprentissage pratique dans mes
     formations techniques
@@ -30,7 +30,7 @@ const About = () => {
       </div>
 
       <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text text-slate-300'>Mes Compétences</h3>
+        <h3 className='subhead-text text-slate-700'>Mes Compétences</h3>
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
@@ -49,9 +49,9 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text text-slate-300'>Education</h3>
+        <h3 className='subhead-text text-slate-700'>Education</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-          <p className="text-white font-semibold">
+          <p className="text-black font-semibold">
           Bien que je n'aie pas encore navigué le monde professionnel, 
           j'ai beaucoup appris et me suis formé dans mon domaine de prédilection. 
           Aperçu de mon parcours d'apprentissage :
@@ -82,11 +82,11 @@ const About = () => {
                 }}
               >
                 <div>
-                  <h3 className='text-black text-xl font-poppins font-semibold'>
+                  <h3 className='text-black text-xl font-poppins font-bold'>
                     {experience.title}
                   </h3>
                   <p
-                    className='text-black-500 font-medium text-base'
+                    className='text-black-500 font-bold text-base'
                     style={{ margin: 0 }}
                   >
                     {experience.company_name}
@@ -97,7 +97,7 @@ const About = () => {
                   {experience.points.map((point, index) => (
                     <li
                       key={`experience-point-${index}`}
-                      className='text-black-500/50 font-normal pl-1 text-sm'
+                      className='text-black-500 font-bold pl-1 text-sm'
                     >
                       {point}
                     </li>
@@ -109,7 +109,7 @@ const About = () => {
         </div>
       </div>
 
-      <hr className='border-slate-200' />
+      <hr className='border-slate-500' />
 
       <CTA />
     </section>

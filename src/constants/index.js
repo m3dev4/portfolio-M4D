@@ -28,7 +28,8 @@ import {
     icondash,
     bank,
     ai,
-    tshirt
+    tshirt,
+    meethub
 } from "../assets/icons";
 
 export const skills = [
@@ -176,19 +177,14 @@ export const experiences  = [
 
 export const socialLinks = [
     {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/m3dev4',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/mouhamed-lo-287a06202/',
     }
 ];
 
@@ -221,11 +217,11 @@ export const projects = [
         description: 'Shirt Custom est une application web interactive permettant de personnaliser visuellement des t-shirts. Développée avec React, elle offre une interface dynamique basée sur des composants pour ajuster en temps réel la customisation.',
         link: 'https://shirt-custom.netlify.app/',
     },
-    // {
-    //     iconUrl: summiz,
-    //     theme: 'btn-back-yellow',
-    //     name: 'AI Summarizer Application',
-    //     description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    //     link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    // }
+    {
+        iconUrl: meethub,
+        theme: 'btn-back-yellow',
+        name: 'Meet-Hub',
+        description: 'MeetHub est une plateforme de vidéoconférence intuitive conçue pour réunir les gens du monde entier en ligne. Avec MeetHub, vous pouvez organiser des réunions professionnelles, des séminaires en ligne, des cours virtuels et des retrouvailles avec vos proches, le tout en quelques clics.',
+        link: 'https://meet-hub-4eyg.vercel.app',
+    }
 ];
